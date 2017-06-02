@@ -10,6 +10,16 @@ function equals(got, expected) {
   }
 }
 
-equals(1, 1); // This should pass!
-equals(1, 2); // This should fail
-equals("Hello", "Hello"); // This should fail
+/*
+Instructions:
+
+Turn the below "sum" code into a function
+that returns the sum instead of printing it.
+Then write some test cases for it to make
+sure it works!
+*/
+
+function sum(a, b) {
+  var result = a + b;
+  console.log("The sum is " + result);
+}
