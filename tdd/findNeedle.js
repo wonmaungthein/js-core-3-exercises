@@ -33,5 +33,7 @@ function findNeedle(haystack) {
   }
 }
 
-equals(findNeedle(haystack1), 3);
+equals(findNeedle(haystack1)[0], 3);
+equals(findNeedle(haystack1)[1], 5);
 equals(findNeedle(haystack2), 1);
+
